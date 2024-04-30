@@ -63,8 +63,8 @@ body{
     transition: 0.4s ease;
 }
 .circle.active{
-    background-color: var(--line-border-fill);
     border-color: var(--line-border-fill);
+    color: var(--line-border-fill);
 }
 .btn{
     background-color: var(--line-border-fill);
