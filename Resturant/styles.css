@@ -1,0 +1,36 @@
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus, .navbar-toggler:active{
+    outline: 0 !important;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card .card-img-top {
+    flex-grow: 1;
+    object-fit: cover;
+  }
+  
+  .card .card-body {
+    flex-grow: 0;
+  }
+  
+@media (min-width: 576px) {
+   
+}
+
+@media (min-width: 992px) {
+    .card{
+        max-width: 400px;
+        height: fit-content;
+    }
+    .card .card-img-top {
+        height: 200px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}
