@@ -8,11 +8,11 @@ function formatTime(timestamp) {
   // Get the hours, minutes, and seconds from the date object
   let hours = date.getHours();
   let minutes = date.getMinutes();
+  let meridian = hours > 12 ? "PM" : "AM";
 
   hours = hours > 12 ? hours - 12 : hours;
   hours = hours < 10 ? "0" + hours : hours;
   minutes = minutes < 10 ? "0" + minutes : minutes;
-  let meridian = hours > 12 ? "PM" : "AM";
 
   // Format the time
   const formattedTime = `${hours}:${minutes} ${meridian}`;
@@ -51,14 +51,14 @@ async function getWeather(e) {
     <span>🌏 Latitude: ${data.coord.lat}</span>
   </div>
   <p>
-    🔆 &nbsp; Temperature: ${data.main.temp} &nbsp; ${data.weather[0].main}<br/>
+    🔆 &nbsp; Temperature: ${data.main.temp}°C &nbsp; ${data.weather[0].main}<br/>
     🌤️ &nbsp; Feels like: ${data.main.feels_like}°C<br/>
     ⛅ &nbsp; Humidity: ${data.main.humidity}%<br/>
     🌊 &nbsp; pressure: ${data.main.pressure} mbar<br/>
-    🌥️ &nbsp; minimum temperature: ${data.main.temp_min}°C <br/>
-    🌤️ &nbsp; maximum temperature: ${data.main.temp_max}°C <br/>
+    🌥️ &nbsp; Minimum Temperature: ${data.main.temp_min}°C <br/>
+    🌤️ &nbsp; Maximum Temperature: ${data.main.temp_max}°C <br/>
     🌅 &nbsp; Sunrise: ${formatTime(data.sys.sunrise)} <br/>
-    🌄 &nbsp; Sunset: ${formatTime(data.sys.sunrise)}
+    🌄 &nbsp; Sunset: ${formatTime(data.sys.sunset)}
   </p>`;
     cityName = "";
   } catch (error) {
