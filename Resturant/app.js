@@ -5,6 +5,7 @@ const mains = document.getElementById("Mains");
 const desserts = document.getElementById("Deserts");
 const beverages = document.getElementById("Beverages");
 const search = document.getElementById('search')
+const myVideo = document.getElementById("myVideo")
 const menu = [
   {
     id: 1,
@@ -120,11 +121,6 @@ const menu = [
 ];
 
 // JavaScript code
-document.addEventListener('DOMContentLoaded', function() {
-  var video = document.getElementById('myVideo');
-  video.play();
-});
-
 //all buttons call
 all.addEventListener("click", allItems);
 starters.addEventListener("click", startersItems);
@@ -135,35 +131,41 @@ search.addEventListener('input', menuSearch);
 
 allItems();
 function allItems() {
+  myVideo.style.display = 'block'
   updateItems(menu);
 }
 function startersItems() {
   const sortedItems = menu.filter((item) => item.category === "starters");
+  myVideo.style.display = 'none'
   updateItems(sortedItems);
 }
 function mainsItems() {
   const sortedItems = menu.filter((item) => item.category === "mains");
+  myVideo.style.display = 'none'
   updateItems(sortedItems);
 }
 function dessertItems() {
   const sortedItems = menu.filter((item) => item.category === "desserts");
+  myVideo.style.display = 'none'
   updateItems(sortedItems);
 }
 function beverageItems() {
   const sortedItems = menu.filter((item) => item.category === "beverages");
+  myVideo.style.display = 'none'
   updateItems(sortedItems);
 }
 function menuSearch(e){
   e.preventDefault();
   let searchQuery =  search.value.toLowerCase();
-  const sortedItems = menu.filter(item =>item.title.toLowerCase().includes(searchQuery))
+  const sortedItems = menu.filter(item =>item.title.toLowerCase().includes(searchQuery));
+  myVideo.style.display = 'none'
   updateItems(sortedItems)
 }
 function updateItems(sortedItems) {
   resultContainer.innerHTML = "";
   return sortedItems.forEach((item) => {
-    resultContainer.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4">
-  <div class="card">
+    resultContainer.innerHTML += `<div class="menu-item col-12 col-md-6 col-lg-4 align-self-stretch">
+  <div class="card h-100">
     <img src="${item.img}" class="card-img-top img-responsive" alt="${item.title}">
     <div class="card-body">
       <h5 class="card-title">${item.title}</h5>

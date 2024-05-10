@@ -12,6 +12,7 @@
   .card .card-img-top {
     flex-grow: 1;
     object-fit: cover;
+    max-height: 200px;
   }
   
   .card .card-body {
@@ -23,13 +24,8 @@
 }
 
 @media (min-width: 992px) {
-    .card{
-        max-width: 400px;
-        height: fit-content;
-    }
     .card .card-img-top {
-        height: 200px;
-        max-width: 400px;
+      max-height: 400px;
         margin-left: auto;
         margin-right: auto;
       }
