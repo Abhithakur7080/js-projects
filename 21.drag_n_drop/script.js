@@ -18,7 +18,7 @@ function dragEnd(){
     this.className = 'fill'
 }
 function dragOver(e){
-    e.preventDefault()
+    e.preventDefault();
 }
 function dragEnter(e){
     e.preventDefault();
