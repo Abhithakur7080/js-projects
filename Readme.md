@@ -1,4 +1,4 @@
-<h1 align="center"><img height="22px" src="https://skillicons.dev/icons?i=javascript" alt=""/> &nbsp;JAVASCIPT PROJECTS</h1>
+<h1 align="center"><img height="25px" src="https://skillicons.dev/icons?i=javascript" alt=""/> &nbsp;JAVASCIPT PROJECTS</h1>
 
 1. Expanding cards [visit](https://github.com/Abhithakur7080/js-projects/tree/main/01.expending_card)
 2. Progress Step [visit](https://github.com/Abhithakur7080/js-projects/tree/main/02.progress_steps)
