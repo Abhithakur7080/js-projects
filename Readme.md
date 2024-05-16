@@ -10,7 +10,7 @@
 6. Scroll Animation [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/06.scroll_animation)
 7. Split Landing Page [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/07.split_landing_page)
 8. Form Input Wave [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/08.form_input_wave)
-9. Sound board [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/09.sound_board)
+9. Sound board [visit code](https://github.com/Abhithakur7080/js-projects/blob/main/09.sound_board)
 10. Dad jokes [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/10.dad_jokes)
 11. Event KeyCodes [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/11.event_kecodes)
 12. FAQ Collapse [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/12.FAQ_collepase)
