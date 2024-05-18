@@ -34,3 +34,5 @@
 30. *Auto Text Effect* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/30.auto_text_effect) - [Live view](https://abhithakur7080.github.io/js-projects/30.auto_text_effect/index.html)
 31. *Password Generator* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/31.password_generator) - [Live view](https://abhithakur7080.github.io/js-projects/31.password_generator/index.html)
 32. *Good Cheap fast* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/32.good_cheap_fast) - [Live view](https://abhithakur7080.github.io/js-projects/32.good_cheap_fast/index.html)
+33. *Notes App* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/33.notes_app) - [Live view](https://abhithakur7080.github.io/js-projects/33.notes_app/index.html)
+34. *Animated Countdown* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/34.animated_countdown) - [Live view](https://abhithakur7080.github.io/js-projects/34.animated_countdown/index.html)
