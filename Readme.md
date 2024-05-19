@@ -36,3 +36,5 @@
 32. *Good Cheap fast* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/32.good_cheap_fast) - [Live view](https://abhithakur7080.github.io/js-projects/32.good_cheap_fast/index.html)
 33. *Notes App* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/33.notes_app) - [Live view](https://abhithakur7080.github.io/js-projects/33.notes_app/index.html)
 34. *Animated Countdown* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/34.animated_countdown) - [Live view](https://abhithakur7080.github.io/js-projects/34.animated_countdown/index.html)
+35. *Image Carousel* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/35.image_carousel) - [Live view](https://abhithakur7080.github.io/js-projects/35.image_carousel/index.html)
+34. *Hoverboard* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/36.hoverboard) - [Live view](https://abhithakur7080.github.io/js-projects/36.hoverboard/index.html)
