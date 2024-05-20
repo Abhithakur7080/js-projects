@@ -37,4 +37,6 @@
 33. *Notes App* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/33.notes_app) - [Live view](https://abhithakur7080.github.io/js-projects/33.notes_app/index.html)
 34. *Animated Countdown* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/34.animated_countdown) - [Live view](https://abhithakur7080.github.io/js-projects/34.animated_countdown/index.html)
 35. *Image Carousel* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/35.image_carousel) - [Live view](https://abhithakur7080.github.io/js-projects/35.image_carousel/index.html)
-34. *Hoverboard* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/36.hoverboard) - [Live view](https://abhithakur7080.github.io/js-projects/36.hoverboard/index.html)
+36. *Hoverboard* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/36.hoverboard) - [Live view](https://abhithakur7080.github.io/js-projects/36.hoverboard/index.html)
+37. *Pokedex* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/37.pokedex) - [Live view](https://abhithakur7080.github.io/js-projects/37.pokedex/index.html)
+38. *Mobile Tab Navigation* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/38.mobile_tab_navigation) - [Live view](https://abhithakur7080.github.io/js-projects/38.mobile_tab_navigation/index.html)
