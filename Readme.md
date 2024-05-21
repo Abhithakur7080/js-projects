@@ -40,3 +40,5 @@
 36. *Hoverboard* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/36.hoverboard) - [Live view](https://abhithakur7080.github.io/js-projects/36.hoverboard/index.html)
 37. *Pokedex* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/37.pokedex) - [Live view](https://abhithakur7080.github.io/js-projects/37.pokedex/index.html)
 38. *Mobile Tab Navigation* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/38.mobile_tab_navigation) - [Live view](https://abhithakur7080.github.io/js-projects/38.mobile_tab_navigation/index.html)
+39. *Password Strength Background* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/39.password_strength_background) - [Live view](https://abhithakur7080.github.io/js-projects/39.password_strength_background)
+40. *3D Boxes Background* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/40.3d_boxes_background) - [Live view](https://abhithakur7080.github.io/js-projects/40.3d_boxes_background/index.html)
