@@ -42,3 +42,5 @@
 38. *Mobile Tab Navigation* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/38.mobile_tab_navigation) - [Live view](https://abhithakur7080.github.io/js-projects/38.mobile_tab_navigation/index.html)
 39. *Password Strength Background* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/39.password_strength_background) - [Live view](https://abhithakur7080.github.io/js-projects/39.password_strength_background)
 40. *3D Boxes Background* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/40.3d_boxes_background) - [Live view](https://abhithakur7080.github.io/js-projects/40.3d_boxes_background/index.html)
+41. *Verify Account UI* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/41.verify_account_UI) - [Live view](https://abhithakur7080.github.io/js-projects/41.verify_account_UI/index.html)
+42. *Live User Filter* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/42.live_user_filter) - [Live view](https://abhithakur7080.github.io/js-projects/42.live_user_filter/index.html)
