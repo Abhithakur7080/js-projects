@@ -44,3 +44,5 @@
 40. *3D Boxes Background* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/40.3d_boxes_background) - [Live view](https://abhithakur7080.github.io/js-projects/40.3d_boxes_background/index.html)
 41. *Verify Account UI* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/41.verify_account_UI) - [Live view](https://abhithakur7080.github.io/js-projects/41.verify_account_UI/index.html)
 42. *Live User Filter* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/42.live_user_filter) - [Live view](https://abhithakur7080.github.io/js-projects/42.live_user_filter/index.html)
+43. *Feedback UI* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/43.facebook_UI_design) - [Live view](https://abhithakur7080.github.io/js-projects/43.facebook_UI_design/index.html)
+44. *Live User Filter* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/44.custom_range_slider) - [Live view](https://abhithakur7080.github.io/js-projects/44.custom_range_slider/index.html)
