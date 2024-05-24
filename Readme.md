@@ -46,3 +46,5 @@
 42. *Live User Filter* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/42.live_user_filter) - [Live view](https://abhithakur7080.github.io/js-projects/42.live_user_filter/index.html)
 43. *Feedback UI* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/43.facebook_UI_design) - [Live view](https://abhithakur7080.github.io/js-projects/43.facebook_UI_design/index.html)
 44. *Live User Filter* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/44.custom_range_slider) - [Live view](https://abhithakur7080.github.io/js-projects/44.custom_range_slider/index.html)
+45. *Netflix Mobile tab Navigation* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/45.netflix_mobiletab_navigation) - [Live view](https://abhithakur7080.github.io/js-projects/45.netflix_mobiletab_navigation/index.html)
+46. *Quiz App* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/46.quiz_app) - [Live view](https://abhithakur7080.github.io/js-projects/46.quiz_app/index.html)
