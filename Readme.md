@@ -48,3 +48,5 @@
 44. *Live User Filter* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/44.custom_range_slider) - [Live view](https://abhithakur7080.github.io/js-projects/44.custom_range_slider/index.html)
 45. *Netflix Mobile tab Navigation* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/45.netflix_mobiletab_navigation) - [Live view](https://abhithakur7080.github.io/js-projects/45.netflix_mobiletab_navigation/index.html)
 46. *Quiz App* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/46.quiz_app) - [Live view](https://abhithakur7080.github.io/js-projects/46.quiz_app/index.html)
+47. *Testimonial Box* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/47.testimonial_box_switcher) - [Live view](https://abhithakur7080.github.io/js-projects/47.testimonial_box_switcher/index.html)
+48. *Random Image Feed* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/48.random_image_feed) - [Live view](https://abhithakur7080.github.io/js-projects/48.random_image_feed/index.html)
