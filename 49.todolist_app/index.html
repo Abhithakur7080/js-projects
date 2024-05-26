@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <!-- header section here -->
+        <header>
+            <h1>
+                <i class="fas fa-pencil"></i>
+                To<span id="do">do</span>
+                <span id="list"> List</span>
+            </h1>
+
+            <div class="input-container">
+                <input type="text" id="add-input" placeholder="What you need to do..." class="max-width full-width">
+                <button id="addbtn" class="btn"><i class="fa-sharp fa-solid fa-plus">  <span>Add</span></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- delete button control section here -->
+        <div class="todo-delete-control">
+            <button id="delete-selected" class="delete btn"><i class="fa-sharp fa-solid fa-trash-can"></i> Delete Selected</button>
+            <button id="delete-all" class="delete btn"><i class="fa-sharp fa-solid fa-trash-can"> </i>Delete All</button>
+        </div>
+
+        <!-- main section here -->
+        <!-- list to store all todos -->
+        <ul class="lists" id="all-tasks" type="1">
+        </ul>
+
+        <!-- footer section cantains all filters -->
+        <footer class="filter">
+            <div class="dropdown">
+                <button class="dropbtn">
+                     Filter
+                </button>
+                <div class="dropbtn-content">
+                    <a href="#" id="all">All</a>
+                    <a href="#" id="pend">Pending</a>
+                    <a href="#" id="comp">Completed</a>
+                </div>
+            </div>
+            <div class="comp-task">
+                <p>Completed: <span id="comp-count">0</span></p>
+            </div>
+            <div class="pend-task">
+                <p>Pending: <span id="pend-count">0</span></p>
+            </div>
+            <div class="tot-task">
+                <p>Total tasks: <span id="tot-count">0</span></p>
+            </div>
+        </footer>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
