@@ -53,4 +53,4 @@
 49. *Todolist App* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/49.todolist_app) - [Live view](https://abhithakur7080.github.io/js-projects/49.todolist_app/index.html)
 50. *Catch The Insect* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/50.catch_the_insect) - [Live view](https://abhithakur7080.github.io/js-projects/50.catch_the_insect/index.html)
 51. *Simple Timer* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/51.simple_timer) - [Live view](https://abhithakur7080.github.io/js-projects/51.simple_timer/index.html)
-50. *Heart Animation* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/52.heart_animation) - [Live view](https://abhithakur7080.github.io/js-projects/52.heart_animation/index.html)
+52. *Heart Animation* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/52.heart_animation) - [Live view](https://abhithakur7080.github.io/js-projects/52.heart_animation/index.html)
