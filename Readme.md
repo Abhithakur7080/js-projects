@@ -54,3 +54,5 @@
 50. *Catch The Insect* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/50.catch_the_insect) - [Live view](https://abhithakur7080.github.io/js-projects/50.catch_the_insect/index.html)
 51. *Simple Timer* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/51.simple_timer) - [Live view](https://abhithakur7080.github.io/js-projects/51.simple_timer/index.html)
 52. *Heart Animation* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/52.heart_animation) - [Live view](https://abhithakur7080.github.io/js-projects/52.heart_animation/index.html)
+53. *Open Close Camera* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/53.open_close_camera) - [Live view](https://abhithakur7080.github.io/js-projects/53.open_close_camera/index.html)
+52. *Text to Speech* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/54.text-to-speech) - [Live view](https://abhithakur7080.github.io/js-projects/54.text-to-speech/index.html)
