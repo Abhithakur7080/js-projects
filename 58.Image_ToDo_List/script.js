@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
   dropzone.addEventListener('drop', (e) => {
       e.preventDefault();
       const files = e.dataTransfer.files;
-      console.log(files);
       displayFile(files);
   });
   fileInput.addEventListener('change', (e) => {
