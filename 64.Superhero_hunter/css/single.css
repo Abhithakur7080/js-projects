@@ -1,0 +1,168 @@
+/* normalize css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lumanosimo', cursive;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #fff;
+}
+/* navigation css part start here */
+.head{
+    width: 100%;
+    height: 10%;
+    background-color: #222;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    margin-top: -32px;
+}
+.head h4{
+    color: #fff;
+    margin-left: 1.5rem;
+    font-size: 2.5rem;
+    font-family: 'Lumanosimo', cursive;
+}
+.homebtn{
+    width: 10rem;
+    margin-left: 85vw;
+    padding: 10px 20px;
+    background-color: #ffff;
+    cursor: pointer;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    position: fixed;
+}
+.homebtn a{
+    font-size: 20px;
+    color: #222;
+    text-decoration: none;
+}
+/* navigation css part end here */
+/* rendered information container css start here */
+.singleContainer{
+    width: fit-content;
+    height: min-content;
+    list-style: none;
+    margin: 2rem;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+hr{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+/* top information css part added here */
+.info{
+    width: 75%;
+    margin-left: 20px;
+}
+#title{
+    font-size: 30px;
+    text-align: left;
+}
+#desc{
+    font-size: 20px;
+    text-align: left;
+    color: #444;
+}
+.heading{
+    font-size: 30px;
+    color: #222;
+    text-decoration: underline;
+}
+/* some extra information css start here */
+.infocount{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ /* favourite button css start here */
+.fav{
+    width: 200px;
+    height: 50px;
+    padding: 0.5rem;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    margin: 50px auto;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+.minus{
+    background-color: red;
+    color: #fff;
+    pointer-events: none;
+}
+/* favourite button css end here */
+
+/* responsive */
+@media (max-width: 768px) {
+    .head {
+        padding: 5px 0;
+    }
+
+    .head h4 {
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+
+    .homebtn {
+        width: 8rem;
+        margin-left: 80vw;
+    }
+
+    .homebtn a {
+        font-size: 18px;
+    }
+
+    .singleContainer {
+        margin: 1rem;
+        padding-top: 20px;
+    }
+
+    #photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .info {
+        margin-left: 10px;
+    }
+
+    #title {
+        font-size: 24px;
+    }
+
+    #desc {
+        font-size: 16px;
+    }
+
+    .infocount {
+        justify-content: center;
+    }
+
+    .fav {
+        width: 150px;
+        font-size: 14px;
+    }
+}

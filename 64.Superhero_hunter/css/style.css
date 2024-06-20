@@ -1,0 +1,237 @@
+/* normalize css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-image: url(marvel-superhero-8k-digital-art-fd-7680x4320.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* navigation css part start here */
+.head {
+    width: 100%;
+    background-color: #222;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    margin-top: -2rem;
+    z-index: 1;
+}
+
+.head h2 {
+    color: #fff;
+    margin-left: 1.5rem;
+    font-size: 2.5rem;
+    font-family: 'Lumanosimo', cursive;
+}
+
+.favbtn {
+    width: 10rem;
+    margin-left: 85%;
+    padding: 10px 20px;
+    background-color: #ffff;
+    cursor: pointer;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    position: fixed;
+}
+
+.favbtn a {
+    font-size: 20px;
+    color: #222;
+    text-decoration: none;
+    font-family: 'Lumanosimo', cursive;
+}
+
+#searchInput {
+    font-size: 15px;
+    width: 25%;
+    padding: 10px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 0 15px #222, 0 0 20px #222;
+    outline: none;
+    margin-left: 4rem;
+}
+
+#searchbtn {
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+/* navigation css part end here */
+
+/* rendered cards container css start here */
+.recontain {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#resultContainer {
+    width: fit-content;
+    height: min-content;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding-top: 2.5rem;
+}
+
+#error {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* card css start here */
+.header {
+    width: 90%;
+    height: 3.8rem;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+
+.superhero {
+    width: 14rem;
+    margin: 1.5rem;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 0.25rem -0.1rem;
+    border: 1px solid #222;
+    border-radius: 5px;
+    background-color: rgba(200, 50, 50, 0.8);
+}
+
+.container img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 25px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.container span {
+    width: 100%;
+    height: 3.8rem;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.5rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* card container css end here */
+
+/* cards add to fav button css start here */
+.superhero button {
+    width: 100%;
+    padding: 0.5rem;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: none;
+    margin-top: 3px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+.superhero button:hover {
+    background-color: rgba(255, 200, 200, 0.4);
+    border: 1px solid #222;
+    color: #222;
+}
+
+/* add to favourite button css end here */
+
+/* rendered cards container css end here  */
+
+/* some extra css */
+
+.fa-heart {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.fill {
+    color: red;
+}
+
+.unfill:hover {
+    color: red;
+}
+
+.minus {
+    background-color: red;
+    color: #fff;
+    pointer-events: none;
+}
+
+.plus {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #222;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .head h2 {
+        font-size: 2rem;
+    }
+
+    .favbtn {
+        margin-left: 70%;
+    }
+
+    #searchInput {
+        font-size: 12px;
+        width: 50%;
+        margin-left: 1rem;
+    }
+
+    #searchbtn {
+        font-size: 20px;
+    }
+
+    .superhero {
+        width: 100%;
+        margin: 1rem;
+    }
+}

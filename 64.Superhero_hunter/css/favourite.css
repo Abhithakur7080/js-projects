@@ -1,0 +1,194 @@
+/* normalize css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lumanosimo', cursive;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-image: url(marvel-superhero-8k-digital-art-fd-7680x4320.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* navigation css part start here */
+.head{
+    width: 100%;
+    background-color: #222;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-top: -32px;
+    z-index: 1;
+}
+.head h2{
+    color: #fff;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
+.homebtn{
+    width: 10rem;
+    margin-left: 85vw;
+    padding: 10px 20px;
+    background-color: #ffff;
+    cursor: pointer;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    position: fixed;
+}
+.homebtn a{
+    font-size: 20px;
+    color: #222;
+    text-decoration: none;
+}
+/* navigation css part end here */
+
+/* favourites cards container css start here */
+.favoriteContainer{
+    width: fit-content;
+    height: min-content;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding-top: 2.5rem;
+} 
+/* card css start here */
+.header{
+    width: 90%;
+    height: 3.8rem;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+.superhero{
+    width: 14rem;
+    margin: 1.5rem;
+    position: relative;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 0.25rem -0.1rem;
+    border: 1px solid #222;
+    border-radius: 5px;
+    background-color: rgba(200, 50, 50, 0.8);
+}
+.container img{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 25px;
+    border-radius: 50%;
+    border: 8px solid white;
+    
+}
+.container span{
+    width: 100%;
+    height: 3.8rem;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.5rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+/* card container css end here */
+
+/* cards remove to fav button css start here */
+.superhero button{
+    width: 100%;
+    padding: 0.5rem;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #222;
+    border: none;
+    margin-top: 3px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+.superhero button:hover{
+    background-color: rgba(255, 200, 200, 0.4);
+    border: 1px solid #222;
+    color: #222;
+}
+/* remove to favourite button css end here */
+
+/* favourites cards container css start here */
+
+/* some extra css */
+.superhero .fa-heart{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: red;
+}
+.fa-minus{
+    font-size: 10px;
+    color: #222;
+}
+/* responsive */
+@media (max-width: 768px) {
+    .head {
+        padding: 0.25rem;
+    }
+
+    .head h2 {
+        margin-left: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .homebtn {
+        width: 8rem;
+        margin-left: 80vw;
+    }
+
+    .homebtn a {
+        font-size: 16px;
+    }
+
+    .favoriteContainer {
+        margin: 1rem;
+        padding-top: 1.5rem;
+    }
+
+    .superhero {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .superhero button {
+        font-size: 14px;
+        padding: 0.25rem;
+    }
+
+    .container img {
+        width: 8rem;
+        height: 8rem;
+        margin-top: 15px;
+    }
+
+    .container span {
+        font-size: 1.2rem;
+    }
+}

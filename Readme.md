@@ -65,3 +65,4 @@
 61. *Login Authentication* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/61.Login_Authintication) - [Live view](https://abhithakur7080.github.io/js-projects/61.Login_Authintication/index.html)
 62. *Todolist 2* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/62.todolist_2) - [Live view](https://abhithakur7080.github.io/js-projects/62.todolist_2/index.html)
 63. *Tribute page* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/63.tribute) - [Live view](https://abhithakur7080.github.io/js-projects/63.tribute/index.html)
+63. *Superhero Hunter* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/64.Superhero_hunter) - [Live view](https://abhithakur7080.github.io/js-projects/64.Superhero_hunter/index.html)
