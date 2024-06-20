@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Authentication</title>
+  </head>
+  <body>
+    <div class="container active">
+        <div class="auth">
+      <div class="wrapper">
+        <div class="top-header">
+          <div class="left active">
+            <span>Login</span>
+          </div>
+          <div class="right">
+            <span> Register </span>
+          </div>
+        </div>
+        <form class="input-container register" id="register-btn">
+          <div class="input">
+            <input type="text" id="fullname" />
+            <label for="fullname">Fullname</label>
+          </div>
+          <div class="input">
+            <input type="text" id="email" />
+            <label for="email">Email</label>
+          </div>
+          <div class="input">
+            <input type="password" id="password" />
+            <label for="password">Password</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <form class="input-container login slide-right" id="login-btn">
+          <div class="input">
+            <input type="text" id="email-login" />
+            <label for="email-login">Enter your email</label>
+          </div>
+          <div class="input">
+            <input type="password" id="password-login" />
+            <label for="password-login">Password</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    </div>
+    
+    <main class="mainPage">
+      <nav>
+        <div class="logo">
+            <h1>&#128274; Authenticate Me</h1>
+        </div>
+        <button id="logout-btn">Logout</button>
+      </nav>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

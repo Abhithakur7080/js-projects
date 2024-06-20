@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section class="container">
+        <div class="heading">
+            <h3>Calculator</h3>
+        </div>
+        <input type="color" id="color" class="color" value="#00ccff">
+        <div class="display">
+            <p class="recent">RECENT: &nbsp; <span id="recent"></span></p>
+            <input id="display" type="text" placeholder="0" disabled>
+        </div>
+        <div class="buttons">
+            <input type="button" value="AC" id="clear" class="clear">
+            <input type="button" value="Del" id="erase" class="erase">
+            <input type="button" value="%" class="input-btn operator">
+            <input type="button" value="/" class="input-btn operator">
+
+            <input type="button" value="7" class="input-btn">
+            <input type="button" value="8" class="input-btn">
+            <input type="button" value="9" class="input-btn">
+            <input type="button" value="*" class="input-btn operator">
+
+            <input type="button" value="4" class="input-btn">
+            <input type="button" value="5" class="input-btn">
+            <input type="button" value="6" class="input-btn">
+            <input type="button" value="-" class="input-btn operator">
+
+            <input type="button" value="1" class="input-btn">
+            <input type="button" value="2" class="input-btn">
+            <input type="button" value="3" class="input-btn">
+            <input type="button" value="+" class="input-btn operator">
+
+            <input type="button" value="0" class="input-btn">
+            <input type="button" value="." class="input-btn">
+            <input type="button" value="00" class="input-btn">
+            <input type="button" value="=" class="equal" id="equal">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

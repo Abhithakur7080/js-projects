@@ -61,3 +61,7 @@
 57. *Resturent* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/57.Resturant) - [Live view](https://abhithakur7080.github.io/js-projects/57.Resturant/index.html)
 58. *Image Todolist* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/58.Image_ToDo_List) - [Live view](https://abhithakur7080.github.io/js-projects/58.Image_ToDo_List/index.html)
 59. *QR Code Generator* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/59.qr_code_generator) - [Live view](https://abhithakur7080.github.io/js-projects/59.qr_code_generator/index.html)
+60. *Calculator* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/60.calculator) - [Live view](https://abhithakur7080.github.io/js-projects/60.calculator/index.html)
+61. *Login Authentication* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/61.Login_Authintication) - [Live view](https://abhithakur7080.github.io/js-projects/61.Login_Authintication/index.html)
+62. *Todolist 2* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/62.todolist_2) - [Live view](https://abhithakur7080.github.io/js-projects/62.todolist_2/index.html)
+63. *Tribute page* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/63.tribute) - [Live view](https://abhithakur7080.github.io/js-projects/63.tribute/index.html)
