@@ -1,0 +1,200 @@
+/* delete the following line if no text is used */
+/* edit the line if you wanna use other fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+:root {
+	--white-color: #ffffff;
+	--blue-color: #0000ff;
+    --green-color: #00ff00;
+	--red-color: #ffa500;
+    --ground-color: linear-gradient(to bottom, #3fafbc 40%, #d7c960, #362910);
+}
+
+/* use only the available space inside the 400x400 frame */
+body{
+    background: #222;
+}
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 4px;
+    cursor: pointer;
+	box-shadow: 1px 2px 30px 0 rgba(255, 255, 255, 0.3);
+	overflow: hidden;
+	background: #3fafbc;
+	color: transparent;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.flag{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .red{
+        position: absolute;
+        width: 100%;
+        height: calc(100% / 3);
+        background: var(--red-color);
+        top: 0;
+        left: 0;
+        animation: left 1.5s linear;
+    }
+    .white{
+        position: absolute;
+        width: 100%;
+        height: calc(100% / 3);
+        background: var(--white-color);
+        top: calc(100% / 3);
+        left: 0;
+        animation: right 1.5s linear;
+        .chakra{
+            position: absolute;
+            border-radius: 50%;
+            width: 63px;
+            height: 63px;
+            left: 50%;
+            top: 50%;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            border: 2px solid var(--blue-color);
+            animation: expand 1.5s ease-in 1.5s, rotatechakra 5s linear 1.5s infinite, showchakra 1s 1.5s forwards;
+            .line{
+                position: absolute;
+                width: 50%;
+                height: 2px;
+                background-color: var(--blue-color);
+                top: 50%;
+                left: 50%;
+                transform-origin: 0%;
+                transform: rotate(calc(15deg * var(--i))) translate3d(1px, 1px, 0);
+            }
+        }
+    }
+    .green{
+        position: absolute;
+        width: 100%;
+        height: calc(100% / 3);
+        background: var(--green-color);
+        top: calc((100% / 3) * 2);
+        left: 0;
+        animation: left 1.5s linear;
+    }
+}
+.ground{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 200px;
+    left: 0;
+    background: var(--ground-color);
+    .text{
+        position: absolute;
+        font-size: 55px;
+        font-weight: 900;
+        opacity: 0;
+        background-image: linear-gradient(to bottom, var(--red-color) 30%, var(--white-color), var(--green-color));
+        background-clip: text;
+    }
+    .text-1{
+        left: 50%;
+        top: -2%;
+        transform: translate(-50%, 8%) ;
+        animation: up 1s linear, showchakra 1s forwards;
+    }
+    .text-2{
+        left: 50%;
+        top: 18%;
+        font-size: 60px;
+        transform: translate(-50%, 8%) ;
+        animation: up 1s linear 1.2s, showchakra 1s forwards 1.2s;
+    }
+    .text-3{
+        left: 50%;
+        top: 42%;
+        transform: translate(-50%, 8%) ;
+        animation: up 1s linear 2.4s, showchakra 1s forwards 2.4s;
+    }
+    marquee{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+        left: 0;
+        bottom: 0;
+        color: black;
+        display: flex;
+        align-items: flex-end;
+        .fa-truck-pickup, .fa-truck, .fa-helicopter{
+            transform: rotateY(180deg);
+        }
+        .fa-helicopter{
+            position: absolute;
+            top: -25px;
+            left: 80px;
+        }
+        .heli-2{
+            left: 160px;
+        }
+        .heli-3{
+            left: 240px;
+        }
+    }
+}
+@keyframes up {
+    0%{
+        transform: translate(-50%, 108%);
+    }
+    100%{
+        transform: translate(-50%, 8%);
+    }
+}
+@keyframes right {
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes left {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes expand {
+    0%{
+        width: 0px;
+        height: 0px;
+        
+    }
+    100%{
+        width: 63px;
+        height: 63px;
+    }
+}
+@keyframes rotatechakra {
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(180deg);
+    }
+}
+@keyframes showchakra {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
