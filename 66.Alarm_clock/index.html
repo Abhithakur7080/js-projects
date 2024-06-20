@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="timer-display">00:00:00</div>
+        <div class="container">
+            <div class="inputs">
+                <input type="number" id="hourInput" placeholder="00" min="0" max="23"/>
+                <input type="number" id="minuteInput" placeholder="00" min="0" max="59"/>
+            </div>
+            <div class="btn-container">
+                <button id="setAlarm">Add Alarm</button>
+                <!-- <button id="stopwatch">stopwatch</button> -->
+            </div>
+            <div class="activeAlarms"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

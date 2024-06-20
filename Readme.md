@@ -67,3 +67,4 @@
 63. *Tribute page* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/63.tribute) - [Live view](https://abhithakur7080.github.io/js-projects/63.tribute/index.html)
 64. *Superhero Hunter* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/64.Superhero_hunter) - [Live view](https://abhithakur7080.github.io/js-projects/64.Superhero_hunter/index.html)
 65. *Republic day* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/65.republic_day) - [Live view](https://abhithakur7080.github.io/js-projects/65.republic_day/index.html)
+66. *Alarm Clock* : [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/66.Alarm_clock) - [Live view](https://abhithakur7080.github.io/js-projects/66.Alarm_clock/index.html)
