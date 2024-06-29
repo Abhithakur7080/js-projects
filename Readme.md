@@ -58,7 +58,7 @@
 | 53. | Open Close Camera | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/53.open_close_camera) | [Live view](https://abhithakur7080.github.io/js-projects/53.open_close_camera/index.html) |
 | 54. | Text to Speech | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/54.text-to-speech) | [Live view](https://abhithakur7080.github.io/js-projects/54.text-to-speech/index.html) |
 | 55. | Share Screen | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/55.share_screen) | [Live view](https://abhithakur7080.github.io/js-projects/55.share_screen/index.html) |
-| 56. | Weather | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/56.Weather) - [Live view](https://abhithakur7080.github.io/js-projects/56.Weather/index.html) |
+| 56. | Weather | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/56.Weather) | [Live view](https://abhithakur7080.github.io/js-projects/56.Weather/index.html) |
 | 57. | Resturent | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/57.Resturant) | [Live view](https://abhithakur7080.github.io/js-projects/57.Resturant/index.html) |
 | 58. | Image Todolist | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/58.Image_ToDo_List) | [Live view](https://abhithakur7080.github.io/js-projects/58.Image_ToDo_List/index.html) |
 | 59. | QR Code Generator | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/59.qr_code_generator) | [Live view](https://abhithakur7080.github.io/js-projects/59.qr_code_generator/index.html) |
