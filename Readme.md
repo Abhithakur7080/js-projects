@@ -1,6 +1,7 @@
 <h1 align="center"><img height="25px" src="https://github.com/Abhithakur7080/js-projects/assets/119639453/2312fc25-a739-4782-aa02-4f558114bd70" alt=""/> &nbsp;JAVASCIPT PROJECTS</h1>
 
 ### Live View of All projects : Explore [here](https://abhithakur7080.github.io/js-projects)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 |     | **Project** | **Visit Code** | **Live View** |
 | --- | --- | --- | --- |
 | 1.| Expanding Cards | [visit code](https://github.com/Abhithakur7080/js-projects/tree/main/01.expending_card) | [Live view](https://abhithakur7080.github.io/js-projects/01.expending_card/index.html) |
